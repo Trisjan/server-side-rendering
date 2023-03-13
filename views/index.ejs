@@ -1,0 +1,18 @@
+<%- include('./partials/head') %>
+
+<%- include('./partials/navbar') %>
+
+<section class="filter">
+
+</section>
+
+<section class="methods">
+  <% methods.forEach((method) => { %>
+  <article class="method">
+    <img src="<%= method.template.url %>" alt="example of <%= method.title %>">
+    <h2><%= method.title %></h2>
+  </article>
+  <% }); %>
+</section>
+
+<%- include('./partials/foot') %>
