@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: rigid-square, sans-serif;
+    font-size: 20px;
 }
 
 html {
@@ -25,8 +26,12 @@ nav {
 
 .logo {
     margin: .5rem;
-    margin-left: 2em;
+    margin-left: 1.25em;
+}
 
+.logo img {
+    width: 2rem;
+    height: 2rem;
 }
 
 .navbar-links ul {
@@ -53,6 +58,7 @@ nav {
 .navbar-links li a {
     text-decoration: none;
     display: block;
+    font-size: 0.7rem;
     color: var(--dark-blue);
 }
 
@@ -97,11 +103,32 @@ nav {
     max-width: 100%;
 }
 
+.method-card .method-info {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    max-width: 100%;
+}
 
-@media (min-width: 31.25rem) {
+.method-card {
+
+}
+
+/* Tablet screens */
+@media (min-width: 24rem) {
+    .methods {
+        
+    }
+}
+
+/* Laptop screens 808px */
+@media (min-width: 40.4rem) {
     
 }
 
+/* Big screens XL */
+@media (min-width: 51.25rem) {
+    
+}
 
 
 
