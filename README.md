@@ -1,7 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-Als student wil ik eenvoudig alle werkvormen kunnen verkennen zodat ik er een kan uitkiezen die bij mijn tekendoel past#13
+# Visual Thinking
+Visual thinking wordt een platform met onderwijsmateriaal voor docenten en studenten om visual thinking in hun lessen en tijdens de studie toe te kunnen passen.
 
 ## Inhoudsopgave
 
@@ -13,18 +13,30 @@ Als student wil ik eenvoudig alle werkvormen kunnen verkennen zodat ik er een ka
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Voor deze opdracht heb ik een overzichtspagina moeten maken in Node waarbij ik de data uit een API haal van Visual thinking.
+
+*User Story:*
+Als student wil ik eenvoudig alle werkvormen kunnen verkennen zodat ik er een kan uitkiezen die bij mijn tekendoel past.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+* Node
+* Ejs
+* Express
+* API
+* CSS
+* HTML
+* Javascript
 
 ## Installatie
+Voor de installatie van Node als je dit project forked doe je het volgende in de terminal
+` npm install `
 
 ## Gebruik
+Voor het draaien van een server lokaal op je laptop doe je het volgende in de terminal
+` npm start `
 
 ## Bronnen
+
 
 ## Licentie
 
