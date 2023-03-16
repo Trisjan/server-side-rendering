@@ -1,6 +1,6 @@
 import express from "express";
 
-// API
+// API en de data fetchen
 const url = "https://api.visualthinking.fdnd.nl/api/v1/methods?first=100";
 const data = await fetch(url).then((response) => response.json());
 
