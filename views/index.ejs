@@ -17,7 +17,11 @@
       <% } %>
     </section>
     <section class="method-info">
-      <h2><%= method.title %></h2>
+      <% if (method.slug != 'studieloopbaanbegeleidingsgesprek') { %>
+        <h2><%= method.title %></h2>
+      <% } else { %>
+        <h2>Studieloopbaanbegeleiding gesprek</h2>
+      <% } %>
     </section>
   </article>
   <% }); %>

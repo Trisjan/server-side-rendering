@@ -30,8 +30,8 @@ nav {
 }
 
 .logo img {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .navbar-links ul {
@@ -97,10 +97,12 @@ nav {
 .methods {
     max-width: 100%;
     margin: 2rem;
-}
+} 
 
 .method-card img {
     max-width: 100%;
+    width: max-content;
+    height: max-content;
 }
 
 .method-card .method-info {
@@ -109,25 +111,35 @@ nav {
     max-width: 100%;
 }
 
-.method-card {
-
+.method-info {
+    margin: 0;
 }
 
 /* Tablet screens */
-@media (min-width: 24rem) {
+@media (min-width: 28rem) {
     .methods {
-        
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-gap: 1rem;
     }
 }
 
-/* Laptop screens 808px */
-@media (min-width: 40.4rem) {
-    
-}
+/* Laptop screens and bigger */
+@media (min-width: 44rem) {
+    .methods {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-gap: 1rem;
+    }
 
-/* Big screens XL */
-@media (min-width: 51.25rem) {
-    
+    .logo img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    .navbar-links li a {
+        font-size: 1rem;
+    }
 }
 
 
