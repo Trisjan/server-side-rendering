@@ -18,6 +18,13 @@ Voor deze opdracht heb ik een overzichtspagina moeten maken in Node waarbij ik d
 *User Story:*
 Als student wil ik eenvoudig alle werkvormen kunnen verkennen zodat ik er een kan uitkiezen die bij mijn tekendoel past.
 
+![image](https://user-images.githubusercontent.com/74552944/225854242-aacdafce-108c-465d-a1ce-9679bd1b9b3f.png)
+
+![image](https://user-images.githubusercontent.com/74552944/225854328-a85db013-d8b1-4e00-b428-ad17a8d5b52f.png)
+
+![image](https://user-images.githubusercontent.com/74552944/225854377-961bd156-761b-4db0-b27f-88257fe345e4.png)
+
+
 ## Kenmerken
 * Node
 * Ejs
